@@ -1,0 +1,87 @@
+.slide{
+    padding-top: 70px;
+}
+
+.slide-01{
+    /* The image used */
+    background-image: url("https://br-art.vn/wp-content/uploads/2017/06/sexy-girl-johnie-ngo-8.jpg");
+    /* Full height */
+    height: calc(100% - 70px); 
+    opacity: 0.8;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-01{
+    color: #fff;
+    padding: 18px;
+    letter-spacing: 10px;
+}
+.text-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-topright {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(0%, -50%);
+    text-align: center;
+}
+
+.text-bottom {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.svg-wrapper {
+    position: relative;
+    top: 50%;
+    width: 320px;  
+    margin: 0 25px;
+}
+.shape {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    fill: transparent;
+    stroke: #19f6e8;
+    border-bottom: 5px solid black;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 8px;
+    color: #fff;
+    top: -48px;
+    position: relative;
+}
+.svg-wrapper:hover .shape {
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+}
+
+.nohover:hover{
+    text-decoration: none;
+}
+

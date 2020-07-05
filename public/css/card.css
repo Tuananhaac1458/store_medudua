@@ -1,0 +1,125 @@
+  .card-01 {
+    transition: 0.3s;
+    width: 95%;
+    height: 452px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px 0;
+  }
+  .card-02 {
+    transition: 0.3s;
+    width: 333px;
+    height: 452px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0;
+
+  }
+  
+  .card-01:hover,
+  .card-02:hover{
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card-01:hover .container-card-01{
+    height: 60%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container-card-01 {
+    padding: 2px 16px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    background-color: #fff;
+    overflow: hidden;
+    width: 100%;
+    height: 15%;
+    transition: .5s ease;
+  }
+  .image-care-01{
+    position: relative;
+    width: 100%;
+    height: 85%;
+    background-image: url("https://i.a4vn.com/2018/8/29/thanh-bi-va-dan-hot-girl-sexy-hua-gi-voi-cac-tuyen-thu-u23-vn-ch-09d753.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .flat-info{
+      margin-top: 10px;
+      width: 100%;
+      color:black;
+      text-align: center;
+      align-items: center;
+  }
+  .flat-info-center{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .detail-product{
+    height: 80%;
+  }
+  .detail-product table{
+    table-layout: fixed;
+    width: 100%;    
+  }
+  .max-line-cell-2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    align-items: center;
+  }
+
+  .card-02:hover .image-care-02{
+    background-image: url("https://blogchinagirls.files.wordpress.com/2019/11/cup-e.club_2019_1667_14.jpg?w=380");
+  }
+  .container-card-02{
+    position: relative;
+    padding: 2px 16px;
+    background-color: #fff;
+    overflow: hidden;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    text-align: center;
+   
+  }
+  .image-care-02{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background-image: url("https://i.a4vn.com/2018/8/29/thanh-bi-va-dan-hot-girl-sexy-hua-gi-voi-cac-tuyen-thu-u23-vn-ch-09d753.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: all 0.5s ease;
+    transition-property:  background-image;
+  }
+
+  /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  .card-01{
+    height: 300px;
+  } 
+}
+@media only screen and (min-width: 768px) {
+  .card-01{
+    height: 352px;
+  } 
+}
+@media only screen and (min-width: 991px) {
+  .card-01{
+    height: 452px;
+  }
+}
