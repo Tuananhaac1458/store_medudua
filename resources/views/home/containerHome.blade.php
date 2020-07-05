@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         @include('home.head',['title' => 'Đăng nhập'])
+    <link rel="stylesheet" href="{{url('css/slide.css')}}"/>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Heroron</title>
@@ -19,11 +20,14 @@
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
+                widows: 100%;
                 margin: 0;
             }
 
             .full-height {
                 height: 100vh;
+                widows: 100%;
+
             }
 
             .flex-center {
@@ -62,40 +66,34 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .conten-slide{
+                width: 100%;
+                margin-top: 55px;
+            }
+
+            .asd{
+                background-image: url("https://br-art.vn/wp-content/uploads/2017/06/sexy-girl-johnie-ngo-8.jpg");
+                /* Full height */
+                width: 100%;
+
+                height: calc(100% - 70px); 
+                opacity: 0.8;
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
         </style>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @include('layouts.navbar')
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+            @include('layouts.navbar02')
+            <div><p style="line-height: 15px;">a</p></div>
+            <div class="conten-slide">
+                @include('slides.silde_full_page_image')
+                
+            </div>
+            <div class="content container">
             </div>
             
         </div>

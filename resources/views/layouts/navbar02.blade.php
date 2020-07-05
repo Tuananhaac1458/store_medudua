@@ -34,12 +34,12 @@
                             <a href="{{ route('login') }}"><span class="icon"><i class="far fa-user"></i></span></a>
                         </li>
                         <li >
-                            <a href="{{ route('login') }}"><span class="icon"><i class="material-icons-outlined" style="font-size: 33px">help_outline</i></span></a>
+                            <a href="{{ route('login') }}" style=" padding-top: 5px;"><span class="icon"><i class="material-icons-outlined" style="font-size: 33px">help_outline</i></span></a>
                         </li>
 
                         <li>
-                            <a style="font-size: 33px; " href="{{ route('register') }}">
-                                <i class="material-icons-outlined" style="font-size: 33px; ">shopping_cart</i>
+                            <a style="font-size: 33px;  padding-top: 7px;" href="{{ route('register') }}">
+                                <i class="material-icons-outlined" style="font-size: 33px;">shopping_cart</i>
                                 <span class='badge' id='lblCartCount'> 5 </span>
                             </a>
                         </li>
@@ -59,7 +59,7 @@
                 <div class="ct-menu-right-01">
                     <ul class="ct-nav-01">
                         <li>
-                            <a style="font-size: 33px; " href="{{ route('register') }}">
+                            <a style="font-size: 33px; padding-top: 12px;" href="{{ route('register') }}">
                                 <i class="material-icons-outlined" style="font-size: 33px; ">shopping_cart</i>
                                 <span class='badge' id='lblCartCount'> 5 </span>
                             </a>
@@ -68,8 +68,6 @@
                 </div>
 
                 <div class="ct-slidebar-01">
-                   
-
                     <nav>
                         <ul>
                             <li>

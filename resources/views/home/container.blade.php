@@ -19,12 +19,13 @@
                 position: initial !important;
             }
             #app{
-                width: 100%;
+                /* width: 100%; */
             }
+         
         </style>
     </head>
     <body>
-        <div id="app" >
+        <div id="app">
             @include('layouts.navbar02')
                 
             <div class="slide">
