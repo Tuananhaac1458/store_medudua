@@ -677,6 +677,7 @@ pre code {
 
 .row {
   display: flex;
+  align-self: flex-end;
   flex-wrap: wrap;
   margin-right: 0px !important;
   margin-left: 0px !important;

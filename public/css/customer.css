@@ -199,24 +199,28 @@
         
     }
     .ct-big-mr{
-        padding-right: 10%;
-        padding-left: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
         margin-right: auto;
         margin-left: auto;
     }
+    .block_text_slide{
+        height: 400px;
+        min-width: auto;
+    }
+    
   }
 @media (max-width: 992px) {
     .ct-big-gird {
         height: 500px;
-        
     }
     .ct-nomal-gird {
         height: 500px;
         
     }
     .ct-big-mr{
-        padding-right: 10%;
-        padding-left: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
         margin-right: auto;
         margin-left: auto;
     }
@@ -224,7 +228,6 @@
 .container_slide{
     background-color: #FAFAFA;
 }
-.carousel .carousel-item img,
 .carousel .carousel-item .block_text_slide {
     height: 500px;
     min-width: auto;
