@@ -6,6 +6,7 @@
     background-image: url("https://br-art.vn/wp-content/uploads/2017/06/sexy-girl-johnie-ngo-8.jpg");
     /* Full height */
     height: calc(100% - 70px); 
+    margin: 0 10px;
     opacity: 0.8;
     /* Center and scale the image nicely */
     background-position: center;

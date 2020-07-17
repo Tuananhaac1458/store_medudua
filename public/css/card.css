@@ -1,7 +1,7 @@
   .card-01 {
     transition: 0.3s;
     width: 95%;
-    height: 452px;
+    height: 352px;
     border-radius: 5px;
     overflow: hidden;
     position: relative;
@@ -9,12 +9,11 @@
   }
   .card-02 {
     transition: 0.3s;
-    width: 333px;
-    height: 452px;
+    width: 100%;
+    height: 352px;
     border-radius: 5px;
     overflow: hidden;
-    margin: 20px 0;
-
+    margin: 10 0px ;
   }
   
   .card-01:hover,
@@ -81,7 +80,7 @@
   .container-card-02{
     position: relative;
     padding: 2px 16px;
-    background-color: #fff;
+    background-color: rgba(250, 250, 250, 0.975);
     overflow: hidden;
     width: 100%;
     height: 20%;

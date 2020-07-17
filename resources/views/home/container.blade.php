@@ -9,7 +9,8 @@
          <style>
             html, body {
                 background-color: #fff;
-                color: #636b6f;
+                /* floralwhite */
+                color:#382628;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -31,18 +32,37 @@
             <div class="slide">
                 @include('slides.silde_full_page_image')
             </div>
-
-            <div class="container" style="margin-top: 20px;">
+            @include('controller.webcomeshopall')
+            @include('layouts.bricktext',["value" => "MEET THIS WEEK'S BEST SELLERS."])
+                {{-- @include('controller.bestsell') --}}
+            
+            <div class="container ct-mr-bottom-4 ct-mr-bottom-2">
                 
-                @include('CardProduct.CardChangceImage')
                 <div class="row"> 
                     @foreach ($collection as $item)
-                        <div class="col-md-4 col-sm-6 col-12 pro-image" style="display: flex; align-items: center;justify-content: center;">
-                            @include('CardProduct.CardDefault', $item)
+                        <div class="col-md-3 col-sm-6 col-12 pro-image" style="display: flex; align-items: center;justify-content: center;">
+                            @include('CardProduct.CardChangceImage', $item)
                         </div>          
                     @endforeach
                 </div>
             </div>
+
+            <div style="background-color: #fff5f3" class="ct-mr-bottom-4 ct-mr-bottom-2">
+                @include('layouts.bricktext',["value" => "sexual health"])
+                @include('controller.girdsexualhealth')
+            </div>
+
+            <div class="container_slide ct-mr-4 ct-mr-2">
+                @include('controller.slideDefault',["value" => "sexual health"])
+            </div>
+
+            <div>
+                @include('layouts.bricktext',["value" => "sexual health"])
+
+                @include('layouts.bricktext',["value" => "sexual health"])
+            </div>
+
+        
         </div>
         @include('home.footer')
     </body>

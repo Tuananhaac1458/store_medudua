@@ -1,7 +1,246 @@
+.no-pd{
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .text-underline{
     text-decoration: underline;
 }
 
 .text-uppercase{
     text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.center-absolute{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.bricktext-01{
+    position: relative;
+    text-align: center;
+}
+.div_wellcomeshop{
+    margin-top: 4px;
+    background-color: #fff5f3;
+    position: relative;
+    display: block;
+    
+}
+.div_wellcomeshop_child{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 102rem
+}
+.div_wellcomeshop_child h2{
+    font-weight: 400
+}
+.div_wellcomeshop_child p{
+    line-height: 1.5rem;
+    font-weight: 200;
+}
+.div_buttom_01 {
+    margin-top: 2rem;
+    text-align: center;
+}
+.div_buttom_01 a{
+    background-color: #382628;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.6rem 1rem 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    
+}
+.div_buttom_01 a:hover{
+    background-color: #ff8771;
+    text-decoration: none;
+}
+.ct-mr-4{
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+.ct-mr-bottom-4{
+    padding-bottom: 4rem;
+}
+
+
+.container-ct{
+    width: 100%;
+}
+  
+  ._centerFlex{
+    
+  }
+  @media (min-width: 576px) {
+    .container-ct {
+      max-width: 732px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container-ct {
+      max-width: 976px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container-ct {
+      max-width: 1290px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container-ct {
+      max-width: 1540px;
+    }
+  }
+
+.grid_card_control{
+    width: 100% ;
+    position: relative;
+}
+
+.gird_banner_01{
+    background-image: url("https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/homepage/en-US/images/2rmbgOgxvVYMI3fQRP1yYk/1");
+    /* Full height */
+    opacity: 0.85;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.gird_banner_02{
+    background-image: url("https://www.maxim.com/.image/t_share/MTM1Nzg4ODc2NDI5MDUxOTE0/np011116_gymsex_articlejpg.jpg");
+    /* Full height */
+    /* Center and scale the image nicely */
+    opacity: 0.85;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.gird_banner_03{
+    background-image: url("https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/homepage/en-US/images/5u47Lsxro6T8PXZMSfELDe/1");
+    /* Full height */
+    opacity: 0.85;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.gird_banner_04{
+    background-image: url("https://br-art.vn/wp-content/uploads/2017/06/sexy-girl-johnie-ngo-8.jpg");
+    background-position: center;
+    opacity: 0.85;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.gird_banner_05{
+    background-image: url("https://www.radianthealthmag.com/wp-content/uploads/2016/01/safe-sex-rose-with-condom.jpg");
+    opacity: 0.85;
+    /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.ct-big-gird{
+    height: 600px;
+}
+.ct-nomal-gird{
+    height: 300px;
+}
+.ct-big-mr{
+    padding-top: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ct-mrr-4{
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+.margin-ct-15{
+   
+}
+@media only screen and (max-width: 768px) {
+    .ct-mrr-2{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .ct-mr-2{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    } 
+    .ct-mr-bottom-2{
+        padding-bottom: 2rem;
+    }
+    .ct-big-gird {
+        height: 300px;
+        
+    }
+    .ct-nomal-gird {
+        height: 300px;
+        
+    }
+    .ct-big-mr{
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+  }
+@media (max-width: 992px) {
+    .ct-big-gird {
+        height: 500px;
+        
+    }
+    .ct-nomal-gird {
+        height: 500px;
+        
+    }
+    .ct-big-mr{
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+.container_slide{
+    background-color: #FAFAFA;
+}
+.carousel .carousel-item img,
+.carousel .carousel-item .block_text_slide {
+    height: 500px;
+    min-width: auto;
+}
+.block_text_slide{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }

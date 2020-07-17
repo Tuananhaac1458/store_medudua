@@ -47,15 +47,6 @@ class HomeController extends Controller
                 ],
                 '4' => [
                     'name'=> 'linh'
-                ],
-                '5' => [
-                    'name'=> 'linh'
-                ],
-                '6' => [
-                    'name'=> 'linh'
-                ],
-                '7' => [
-                    'name'=> 'linh'
                 ]
 
             ]

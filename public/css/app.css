@@ -29,6 +29,8 @@
  */
 
 :root {
+  --color-original: #ffdcd2;
+  --color-light-original: rgb(255, 245, 243);
   --blue: #3490dc;
   --indigo: #6574cd;
   --purple: #9561e2;
@@ -626,6 +628,7 @@ pre code {
   }
 }
 
+
 .container-fluid,
 .container-xl,
 .container-lg,
@@ -675,8 +678,8 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
 
 .no-gutters {
